@@ -1,0 +1,47 @@
+.nav-bar {
+    margin: 0px 60px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar ul li {
+    margin-right: 50px;
+}
+
+.nav-bar ul li a {
+    color: #919BBE;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.nav-bar-button {
+    background-color: #111B47;
+    color: #FFFFFF;
+    font-family: "Roboto",
+        sans-serif;
+    font-size: 12x;
+    width: 160px;
+    height: 26px;
+}
+
+.nav-bar-button:hover {
+    cursor: pointer;
+}
+
+#landing-page-title {
+    font-family: "Roboto",
+        sans-serif;
+        font-size: 26px;
+        color: #37447E;
+}
