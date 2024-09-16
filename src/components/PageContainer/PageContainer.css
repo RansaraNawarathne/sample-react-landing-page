@@ -1,0 +1,22 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+}
+
+.container-unit {
+    width: 50vw;
+    align-items: center;
+}
+
+.container-unit h1 {
+    font-size: 50px;
+    color: #091133;
+}
+
+.container-unit p {
+    font-size: 18px;
+    color: #505F98;
+}
