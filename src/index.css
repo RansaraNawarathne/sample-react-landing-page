@@ -71,4 +71,8 @@ button:focus-visible {
 
 body {
   background-color: #FBFBFD;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
