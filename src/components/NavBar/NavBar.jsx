@@ -1,3 +1,5 @@
+import { HERO_SECTION_BUTTONS } from '../../assets/data';
+import ThemedButton from '../ThemedButton/ThemedButton';
 import './NavBar.css'
 
 export default function NavBar() {
@@ -21,9 +23,9 @@ export default function NavBar() {
                     <h3 id='landing-page-title'>Landing</h3>
                 </div>
                 <div>
-                    <button className='nav-bar-button'>
-                        Buy Now
-                    </button>
+                    <ThemedButton isInvertButtonType={false}>
+                        {HERO_SECTION_BUTTONS.BUY_NOW}
+                    </ThemedButton>
                 </div>
             </nav>
         </>
