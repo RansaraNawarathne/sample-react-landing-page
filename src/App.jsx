@@ -1,10 +1,10 @@
 import './App.css'
-import NavBar from './components/NavBar/NavBar.jsx'
+import HeroSection from './components/HeroSection/HeroSection.jsx'
 
 function App() {
   return (
     <>
-    <NavBar />
+    <HeroSection />
     </>
   )
 }
