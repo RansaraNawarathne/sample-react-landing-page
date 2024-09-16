@@ -1,0 +1,19 @@
+button {
+    padding: 5px 60px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.themed-button {
+    background-color: #111B47;
+    color: #FFFFFF;
+}
+
+.themed-invert-button {
+    background-color: #FFFFFF;
+    color: #091133;
+    font-weight: bold;
+    border-color: #091133;
+}
